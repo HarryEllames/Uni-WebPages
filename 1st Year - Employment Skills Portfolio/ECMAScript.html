@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+
+<head>
+    <!-- Link to styling -->
+    <link rel="stylesheet" href="CSS%20external%20sheet.css">
+    
+    <!-- The tab Title -->
+    <meta charset="utf-8">
+    <title>Harry Ellames</title>
+</head>
+
+<body>
+ 
+<!-- The MainCotainer holds the header and the main body within it -->
+    
+
+
+        <header>
+            
+            
+            <h1>Harry Ellames Employment Skills Portfolio</h1>
+            
+        </header>
+
+    <!-- Decorates all the buttons -->
+    <nav>
+
+        <!-- Home BUTTON 1 -->
+        <span id="HomeButton">
+            <a href="index.html">Home / About Me</a>
+        </span>
+        
+        <!-- Skills BUTTON 2 -->
+        <span id="Button2">
+            <a href="SkillsPage.html">My Skills</a>
+        </span>
+        
+        <!-- Qualifications BUTTON 3 -->
+        <span id="Button3">
+            <a href="QualificationsPage.html">Qualifications</a>
+        </span>
+        
+    </nav>
+
+
+    <br>
+    <div id="BodyContainer">
+        <section>
+            <h4>Menu:</h4>
+           
+            <input type="button" value="Add to Favourites" onclick="AddFavourite() ;" />
+            <input type="button" value="Order Favourites" onclick="OrderFavourite() ;" />
+            <p>Coffee type:</p>
+            
+            
+            <label for="CType">Coffee type:</label>
+        	<select name="CType" id="CType" onchange="UpdateCoffee();">
+                <option value="" selected disabled hidden>Pick a Coffee type</option>
+            	<option value="Latte" >Latte</option>
+            	<option value="Cappuccino" onclick="UpdateCoffee();">Cappuccino</option>
+            	<option value="White" onclick="UpdateCoffee()">White Coffee</option>
+                <option value="Expresso" onclick="UpdateCoffee()">Expresso</option>
+                <option value="Americano" onclick="UpdateCoffee()">Americano</option>
+        	</select>
+            <br>
+            <label for="CSize">Coffee Size:</label>
+        	<select name="CSize" id="CSize" onchange="UpdateCoffee();">
+            	<option value="Small">Small</option>
+            	<option value="Medium" selected="selected">Medium</option>
+            	<option value="Large">Large</option>
+        	</select>
+            <br>
+            <label for="Milk" id="MilkLabel">Milk type:</label>
+        	<select name="Milk" id="Milk" onchange="UpdateCoffee();">
+            	<option value="Whole">Whole</option>
+            	<option value="Skimmed">Skimmed</option>
+                <option value="Semi-Skimmed" selected="selected">Semi-Skimmed</option>
+            	<option value="Coconut">Coconut</option>
+                <option value="Soya">Soya</option>
+        	</select>
+            
+            
+            <br>
+            <p>Extras:</p>
+            <label for="Sugar">Sugar:</label>
+        	<select name="Sugar" id="Sugar" onclick="UpdateCoffee();">
+            	<option value="No">No</option>
+            	<option value="Yes">Yes</option>
+        	</select>
+            <label for="Cream">Cream:</label>
+        	<select name="Cream" id="Cream" onclick="UpdateCoffee();">
+            	<option value="No">No</option>
+            	<option value="Yes">Yes</option>
+        	</select>
+            
+            
+            <p4>Shots of syrup: </p4><input type="text" id="Syrup" value="0" onchange="UpdateCoffee()"/>
+            
+            <br>
+            <input type="button" value="Add To Order" onclick="AddToOrder() ;" />
+            
+            <p id="Total"></p>
+            
+            
+            <p id ="cCostText">Current Drink: £</p>
+            <p id="cCost">0.00</p> <br>
+            <p id ="tCostText">Total Cost: £</p>
+            <p id="tCost">0.00</p>
+            
+            <p>
+                Order Summary:
+            </p>
+            <p id="TotalOrder">
+            </p>
+            <br><br>
+            <input type="button" value="Place Order" onclick="PlaceOrder() ;" />
+        </section>
+        
+        
+    </div>
+        
+
+
+
+    
+    <footer>
+        
+        <div id="LeftWideBody">
+        <h2>My Contact Details:</h2>
+    
+        
+            
+            <p2>
+                Phone Number: +44   7445849214
+            </p2>
+                <br> <br> 
+            <p2>Email: </p2>
+            <a href="mailto:office@student.staffs.ac.uk">Office@student.staffs.ac.uk</a>
+            <br><br>
+        </div>
+        <div id="RightThinBody">
+            <br><br><br>
+            <!-- Image obtained from: https://gb.linkedin.com/ -->
+            <a href="https://gb.linkedin.com/">
+                <img src="Images/Linked_in.png" width="135" height="34" alt="LinkedIn Link">
+            </a>     
+        
+        </div>
+    </footer>
+    
+
+           <!--  JAVA Link Below -->
+    <script src="Javaaaa.js"></script>
+
+</body>
+
+</html>
+
+
+
+
