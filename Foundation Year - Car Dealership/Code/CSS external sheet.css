@@ -1,0 +1,353 @@
+* {
+	margin:0;
+	padding: 5px;
+	border:0;
+    vertical-align: middle;
+}
+/*The webpage background colour. Behind the containers */
+body {
+    background: white;
+    
+}
+
+/* Gets rid of the line under hyper links */
+a {
+    text-decoration: none;
+    color: black;
+    font-family: "Times New Roman";
+    font-weight: bold;
+}
+
+h1 {
+    
+    float: left;
+    display: inline;
+
+    padding-left: 50px;
+/*    
+    padding-right: 450px;*/
+    color: black;
+    font-size: 40px
+    
+
+}
+h2 {
+    padding: 20px;
+    font-size:27px;
+    font-weight: bold;
+}
+h3 {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+h4 {
+    padding: 2px;
+    font-size:27px;
+    font-weight: bold;
+}
+
+p {
+    color: black;
+    text-align: justify;
+    font-size: 25px;
+    padding: 5px;
+} 
+p2 {
+
+
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+p3 {
+    display: inline;
+    color: blue;
+    font-size: 19px;
+}
+pre {
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+ 
+
+/*moves the Logo to the right of the screen */
+
+#Logo {
+    text-align: right;
+    
+}
+
+
+
+
+
+
+
+/*   Header   */
+#HeaderContainer
+{
+    margin: 0 auto;
+    background-color: white;
+    position: sticky; 
+    
+    max-width: 1260px;
+	min-width: 1200px; 
+    max-height: 200px;
+}
+
+
+
+
+/*     BUTTONS    */
+#ButtonContainer
+{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 30px;
+    background-color: royalblue;
+    text-align: center;
+    position: sticky;
+    min-width: 1200px;
+    
+}
+
+#HomeButton
+{
+    
+    margin: 0 auto;
+	background-color: none;
+
+    padding-left: 3%;
+    padding-right: 3%;
+    height: 35px;
+	color: #000;
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 25px;
+}
+#Button2
+{
+    
+    margin: 0 auto;
+	background-color: none;
+    /* border: 1px solid black; */
+
+    padding-left: 3%;
+    padding-right: 3%;
+    height: 35px;
+	color: #000;
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 25px;
+}
+#Button3
+{
+    
+    margin: 0 auto;
+	background-color: none;
+    
+    padding-left: 3%;
+    padding-right: 3%;
+    height: 35px;
+	color: #000;
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 25px;
+}
+
+#Button4
+{
+    
+    margin: 0 auto;
+	background-color: none;
+
+
+    padding-left: 3%;
+    padding-right: 3%;
+    height: 35px;
+	color: #000;
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 25px;
+}
+
+#Button5
+{
+    
+    margin: 0 auto;
+	background-color: none;
+
+
+    padding-left: 3%;
+    padding-right: 3%;
+    height: 35px;
+	color: #000;
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 25px;
+}
+
+/* End of Buttons Section*/
+
+
+
+
+
+
+
+/*   BODY   */
+#BodyContainer
+{
+    margin: 0 auto;
+	padding: 10px;
+	background-color: whitesmoke;
+    
+	max-width: 1260px;
+	min-width: 1260px; 
+    
+    
+	color:#000;
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+
+#TitleContainer{
+    margin: 0;
+    padding: 10px;
+
+    display: block;
+    text-align: center;
+    background-color: darkblue;
+    
+}
+/* End of Body */
+
+
+
+
+
+
+
+
+#LeftWideBody{
+    margin: 0;
+    padding: 10px;
+
+    display: inline-block;
+    text-align: left;
+    
+
+    background-color: none;
+
+    max-width: 67%;
+    
+}
+#RightThinBody{
+    margin: 0;
+    padding: 10px;
+    margin-right: 5px;
+    margin-top: 10px;
+
+    display: inline-block;
+    text-align: left;
+    
+    
+
+    background-color: none;
+    float: right;
+    /*
+    border: 5px solid black;
+    */
+    vertical-align:super;
+    max-width: 28%;
+
+
+}
+
+#LeftThinBody{
+    margin: 1px;
+    padding: 0px;
+
+    display: inline-block;
+    text-align: left;
+    
+
+    background-color: none;
+
+
+    max-width: 28%;
+    
+}
+#RightWideBody{
+    margin: 0;
+    padding: 10px;
+    margin-right: 5px;
+    margin-top: 10px;
+
+    display: inline-block;
+    text-align: left;
+    
+    background-color: none;
+    float: right;
+    /*
+    border: 5px solid black;
+    */
+    vertical-align:super;
+    width: 68%;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* the design around the footer class */
+#Footer
+{
+	margin: 0 auto;
+    	padding: 10px;
+	background-color:grey;
+    max-width: 1260px;
+	min-width: 1200px;
+	color: #000;
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+
+#LeftFooter{
+    margin: 1px;
+    padding: 10px;
+    margin-left: 30px;
+
+    display: inline-block;
+    text-align: left;
+    background-color: none;
+    max-width : 420px;
+    min-width: 250px;
+    width: 31%;
+}
+
+
+
+#RightFooter{
+    float: right;
+    margin: 1px;
+    padding: 10px;
+    margin-right: 0px;
+    display: inline-block;
+    text-align: right;   
+    background-color: none;
+    max-width: 420px;
+    min-width: 250px;
+    width: 41%;
+    
+}
