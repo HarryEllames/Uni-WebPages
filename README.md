@@ -1,5 +1,5 @@
 # Uni-WebPages
-Websites created during university using HTML, CSS and JavaScript 
+Webs pages and websites created during university using HTML, CSS and JavaScript 
 
 
 The "Employment Skills Portfolio" was hosted publicly on firebase, available through the following links:
