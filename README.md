@@ -1,4 +1,4 @@
-# Uni-Websites
+# Uni-WebPages
 Websites created during university using HTML, CSS and JavaScript 
 
 
